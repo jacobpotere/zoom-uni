@@ -1,0 +1,25 @@
+.card-title {
+  font-family: cursive;
+  font-size: 22px;
+  text-align: center;
+}
+
+.card {
+  border-radius: 0px;
+  border-color: black;
+  border-width: thin;
+}
+
+.herozoom {
+  width: 100%;
+  color: #2D8CFF;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-bottom: 150px;
+  background-color: #e1dfe4;
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px;
+}

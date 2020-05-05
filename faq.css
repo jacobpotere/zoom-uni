@@ -1,0 +1,93 @@
+
+.herofaq {
+  height: 200px;
+  background-color: #2D8CFF;
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 100%;
+  background-size: cover;
+  padding-bottom: 150px;
+  background-position: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px;
+}
+
+.faq {
+  width: 100%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.faq h2 {
+  text-align: center;
+}
+
+.faq-container {
+  width: 60%;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-weight: 600;
+}
+
+.active, .accordion:hover {
+  background-color: #2D8CFF;
+  color: white;
+}
+
+.faq-panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion:after {
+  content: '\2795';
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.input-group {
+  width: 740px;
+  margin-left: 220px;
+}
+
+.question {
+  color: #2D8CFF;
+  margin-left: 280px;
+}
+
+.ans {
+  margin-left: 280px;
+}
+
+.submit{
+  color: white;
+  background-color: #2D8CFF;
+}
+
+.nav-link {
+  color: grey;
+}
+
+.nav-item: hover {
+  color: blue;
+}

@@ -1,0 +1,47 @@
+body {
+  width: auto;
+}
+nav {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  align-items: center;
+  font-size: 18px;
+  height: 70px;
+}
+.navbar-nav {
+  align-content: center;
+
+}
+
+h1 {
+  font-size: 80px;
+}
+h2 {
+  font-family: comic;
+  font-weight: bold;
+}
+.bg  {
+  background-color: #2D8CFF;
+}
+
+.herozoom {
+  height: 150px;
+  width: 100%;
+  color: #2D8CFF;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-bottom: 150px;
+  background-color: #e1dfe4;
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px;
+}
+
+.nav-link {
+  color: grey;
+}
+.nav-item: hover {
+  color: blue;
+}
